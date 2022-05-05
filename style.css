@@ -4,10 +4,23 @@
   box-sizing: border-box;
 }
 
+form div {
+  /* border: 1px solid red; */
+}
+
+div input {
+  background-color: white;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
 main {
   display: flex;
+  justify-content: space-around;
   width: 80%;
   margin: auto;
+  /* border: red 1px solid; */
 }
 
 .header {
@@ -31,10 +44,14 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-direction: column;
+  flex-flow: column wrap;
 }
 
 #trybewarts-forms-logo {
-  height: 500px;
+  width: 500px;
 }
 
+#main-form-familia {
+  display: flex;
+  flex-direction: column;
+}

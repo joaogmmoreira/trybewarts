@@ -16,22 +16,41 @@
     <form class="trybewarts-login">
       <input type="email" name="email" id="email-header" placeholder="Email">
       <input type="password" name="password" id="password-header" placeholder="Senha">
-      <button id="button-header">Entrar</button>
+      <button type="button" id="button-header">Entrar</button>
     </form>
   </header>
   <main>
     <section>
       <form id="evaluation-form">
-        <input type="text" id="input-name" placeholder="Nome">
-        <input type="text" id="input-lastname" placeholder="Sobrenome">
-        <input type="text" id="input-email" placeholder="Email">
-        <label for="house">Casa: </label>
-        <select name="select-house" id="house">
-          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-          <option value="Corvinode" id="corvinode-house">Corvinode</option>
-          <option value="Pytherina" id="pytherina-house">Pytherina</option>
-        </select>
+        <section id="main-form-nome-sobrenome">
+          <input type="text" id="input-name" placeholder="Nome">
+          <input type="text" id="input-lastname" placeholder="Sobrenome">
+        </section>
+        <section id="main-form-email-casa">
+          <input type="text" id="input-email" placeholder="Email">
+          <label for="house">Casa: </label>
+          <select name="select-house" id="house">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </section>
+        <section id="main-form-familia">
+          <label for="" id="label-family">Qual sua família?</label>
+          <div>
+            <input type="radio" name="family" id="familly-frontend" value="Frontend">
+            <label for="familly-frontend">Frontend</label>
+          </div>
+          <div>
+            <input type="radio" name="family" id="familly-backend" value="Backend">
+            <label for="familly-backend">Backend</label>
+          </div>
+          <div>
+            <input type="radio" name="family" id="familly-fullstack" value="FullStack">
+            <label for="familly-fullstack">FullStack</label>
+          </div>
+        </section>
       </form>
     </section>
     <section>
