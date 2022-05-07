@@ -5,6 +5,7 @@
 }
 
 form div {
+
   /* border: 1px solid red; */
 }
 
@@ -20,6 +21,7 @@ main {
   justify-content: space-around;
   width: 80%;
   margin: auto;
+
   /* border: red 1px solid; */
 }
 
@@ -49,6 +51,7 @@ main {
 
 #trybewarts-forms-logo {
   width: 500px;
+  height: 500px;
 }
 
 #main-form-familia {
