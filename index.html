@@ -23,7 +23,7 @@
     </form>
   </header>
   <main>
-    <section>
+    <section id="main-form-section">
       <h2 id="form-title">Formulário de Avaliação</h2>
       <form method="get" id="evaluation-form">
         <section id="main-form-nome-sobrenome">
@@ -62,27 +62,27 @@
             <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
             <div id="interesses">
               <div>
-                <input type="checkbox" name="HoFs" id="HoFs" value="HoFs">
+                <input type="checkbox" name="interest" id="HoFs" value="HoFs" class="subject">
                 <label for="HoFs">HoFs</label>
               </div>
               <div>
-                <input type="checkbox" name="Jest" id="Jest" value="Jest">
+                <input type="checkbox" name="interest" id="Jest" value="Jest" class="subject">
                 <label for="Jest">Jest</label>
               </div>
               <div>
-                <input type="checkbox" name="Promises" id="Promises" value="Promises">
+                <input type="checkbox" name="interest" id="Promises" value="Promises" class="subject">
                 <label for="Promises">Promises</label>
               </div>
               <div>
-                <input type="checkbox" name="React" id="React" value="React">
+                <input type="checkbox" name="interest" id="React" value="React" class="subject">
                 <label for="React">React</label>
               </div>
               <div>
-                <input type="checkbox" name="SQL" id="SQL" value="SQL">
+                <input type="checkbox" name="interest" id="SQL" value="SQL" class="subject">
                 <label for="SQL">SQL</label>
               </div>
               <div>
-                <input type="checkbox" name="Python" id="Python" value="Python">
+                <input type="checkbox" name="interest" id="Python" value="Python" class="subject">
                 <label for="Python">Python</label>
               </div>
             </div>
@@ -138,6 +138,9 @@
         </section>
 
       </form>
+    </section>
+    <section id="form-resume" style="display: none;">
+      resumo
     </section>
     <section>
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Símbolo Trybewarts">

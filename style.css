@@ -46,6 +46,8 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
+
+  /* position: absolute; */
 }
 
 footer p {
@@ -90,6 +92,7 @@ footer p {
 #trybewarts-forms-logo {
   width: 500px;
   height: 500px;
+
 }
 
 #main-form-familia {
